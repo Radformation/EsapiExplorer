@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsapiExplorer", "EsapiExplorer\EsapiExplorer.csproj", "{93BEB270-F489-4D13-B450-760A53AB201D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsapiExplorer.Debug", "EsapiExplorer.Debug\EsapiExplorer.Debug.csproj", "{34B12B0B-EE61-45BF-A40A-7034CB4A47B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug-13.6|x64 = Debug-13.6|x64
+		Debug-15.5|x64 = Debug-15.5|x64
+		Debug-16.1|x64 = Debug-16.1|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93BEB270-F489-4D13-B450-760A53AB201D}.Debug-13.6|x64.ActiveCfg = Debug-13.6|x64
+		{93BEB270-F489-4D13-B450-760A53AB201D}.Debug-13.6|x64.Build.0 = Debug-13.6|x64
+		{93BEB270-F489-4D13-B450-760A53AB201D}.Debug-15.5|x64.ActiveCfg = Debug-15.5|x64
+		{93BEB270-F489-4D13-B450-760A53AB201D}.Debug-15.5|x64.Build.0 = Debug-15.5|x64
+		{93BEB270-F489-4D13-B450-760A53AB201D}.Debug-16.1|x64.ActiveCfg = Debug-16.1|x64
+		{93BEB270-F489-4D13-B450-760A53AB201D}.Debug-16.1|x64.Build.0 = Debug-16.1|x64
+		{34B12B0B-EE61-45BF-A40A-7034CB4A47B6}.Debug-13.6|x64.ActiveCfg = Debug|x64
+		{34B12B0B-EE61-45BF-A40A-7034CB4A47B6}.Debug-13.6|x64.Build.0 = Debug|x64
+		{34B12B0B-EE61-45BF-A40A-7034CB4A47B6}.Debug-15.5|x64.ActiveCfg = Debug|x64
+		{34B12B0B-EE61-45BF-A40A-7034CB4A47B6}.Debug-15.5|x64.Build.0 = Debug|x64
+		{34B12B0B-EE61-45BF-A40A-7034CB4A47B6}.Debug-16.1|x64.ActiveCfg = Debug|x64
+		{34B12B0B-EE61-45BF-A40A-7034CB4A47B6}.Debug-16.1|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4D55319-5F5E-4D32-B912-ACFD3D634785}
+	EndGlobalSection
+EndGlobal
