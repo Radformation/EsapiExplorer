@@ -33,9 +33,6 @@
     <OutputPath>bin\x64\Debug-13.6\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -48,7 +45,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
-
   <!-- ESAPI 13.6 -->
   <ItemGroup Condition="'$(Configuration)' == 'Debug-13.6'">
     <Reference Include="VMS.TPS.Common.Model.API">
@@ -58,7 +54,6 @@
       <HintPath>..\lib\esapi\13.6\VMS.TPS.Common.Model.Types.dll</HintPath>
     </Reference>
   </ItemGroup>
-
   <!-- ESAPI 15.5 -->
   <ItemGroup Condition="'$(Configuration)' == 'Debug-15.5'">
     <Reference Include="VMS.TPS.Common.Model.API">
@@ -68,7 +63,6 @@
       <HintPath>..\lib\esapi\15.5\VMS.TPS.Common.Model.Types.dll</HintPath>
     </Reference>
   </ItemGroup>
-
   <!-- ESAPI 16.1 -->
   <ItemGroup Condition="'$(Configuration)' == 'Debug-16.1'">
     <Reference Include="VMS.TPS.Common.Model.API">
@@ -78,7 +72,6 @@
       <HintPath>..\lib\esapi\16.1\VMS.TPS.Common.Model.Types.dll</HintPath>
     </Reference>
   </ItemGroup>
-
   <ItemGroup>
     <Compile Include="Simple.cs" />
     <Compile Include="Composite.cs" />
@@ -88,9 +81,6 @@
     </Compile>
     <Compile Include="Script.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="ObjectViewer.xaml">
